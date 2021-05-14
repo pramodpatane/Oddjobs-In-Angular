@@ -1,0 +1,19 @@
+/* browse jobs main css */
+@import url(../../app.component.css);
+*{font-family: nunito-regular;}
+
+.top-section{padding-top: 160px; padding-bottom: 73px; color: #ffffff; background-color: #2A41E8;}
+.top-section .first-p{font-size: 20px; color: #ffffff;}
+/* .top-section p:last-child {font-size: 18px; color: #8888A5;} */
+.main-card{text-decoration: none; }
+.card{padding: 30px 0px 0px 0px; margin: 15px 0; box-shadow: 0px 0px 15px 1px #cecbcb;}
+.card .card-body{color: #868686; font-size: 18px;}
+.card .card-title{padding: 0px 20px;}
+.card .card-title p:first-child{color: #2A41E8;}
+.card .card-title p:last-child{font-size: 20px; margin-top: -10px; color: black;}
+.card .card-text{padding: 0 30px; color: #868686; background: #F9F9F9; 
+    padding-top: 25px; padding-bottom: 40px; font-size: 18px;}
+
+.bottom-section{padding: 70px 0 28px 0;}
+.bottom-section .btn-light{color: black; background: #EAEAEA; padding: 9px 22px;}
+.bottom-section .keywords, .bottom-section .categories{margin-bottom: 40px;}

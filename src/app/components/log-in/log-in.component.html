@@ -1,0 +1,23 @@
+<div class="container">
+    <h2>Log In</h2>
+    <div class="top">
+        <h3>Let's get you logged in.</h3>
+        <p>Don't have an account yet?<a class="sighUp" routerLink="sighUp">&nbsp; Sign Up</a></p>
+    </div>
+    <form class="form" ngSubmit>    
+        <div class="input-group mb-3">
+            <span class="input-group-text emailIcon" id="emailaddress"><i class="far fa-envelope"></i></span>
+            <input type="text" class="form-control email" 
+            placeholder="Email Address" ngModel name="email" required email>
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text passIcon" id="password"><i class="fas fa-unlock-alt"></i></span>
+            <input type="password" class="form-control password" 
+            placeholder="Password" ngModel name="password" required>
+        </div>
+        <a routerLink="forgot-pass">Forgot Password</a>
+        <div class="d-grid mx-auto">
+            <button class="btn btn-lg btn-primary logIn" type="button">Log In</button>
+        </div>       
+    </form> 
+</div>

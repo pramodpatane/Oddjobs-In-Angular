@@ -1,0 +1,53 @@
+@font-face {
+    font-family: nunito-regular;
+    src: url(../../../../src/assets/fonts/nunito-regular-webfont.woff),
+        url(../../../../src/assets/fonts/nunito-regular-webfont.woff2);
+}
+*{font-family: nunito-regular;}
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    margin-left: auto;
+    float: right;
+    justify-content: flex-end;
+}
+.container{max-width: 1220px;}
+.navbar {
+    box-shadow: 0 0 18px 0 rgb(0 0 0 / 12%);
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background: #FFFFFF;
+    font-size: 16px;
+    height: 84px;
+}
+.navbar-toggler{
+    position: absolute;
+    right: 30px;
+    top: 25px;
+}
+.navbar .logo {
+    vertical-align: middle;
+    border-style: none;
+    width: 280px;
+    max-width: 100%;
+    height: auto;
+}
+#navbarNav a{margin: 16px; color: #666; font-family: nunito-regular; font-size: 16px;}
+
+#navbarNav a:hover{color: #2a41e8;}
+
+#signup{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px 20px;
+}
+
+@media (max-width: 768px){
+    .navbar .logo{width: 170px; margin-top: 13px;}
+}
+@media (max-width: 992px){
+    .navbar .logo{border: none;}
+    .navbar-nav{display: none;}
+}

@@ -1,0 +1,70 @@
+<div class="main-wrapper">
+    <div class="container">
+        <h2>Sign Up</h2>
+        <div class="top">
+            <h3>Let's create your account.</h3>
+            <p>Already have an account?<a class="logIn" routerLink="signUp">&nbsp; Log In</a></p>
+            <b>Oddjobs.je is 100% free to use with no hidden costs.</b>
+        </div>
+        <div class="step-1">
+            <b>Step 1: Choose Your Account Type</b>
+            <div class="btn-group">
+                <div class="row">
+                    <div class="col-md-4 text-left">
+                        <a class="btn btn-block btn-lg btn-success post-btn">I want to post jobs</a>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <p>-or-</p>
+                    </div>
+                    <div class="col-md-4 text-right">
+                        <a class="btn btn-block btn-lg btn-light service-btn">I'm a service provider</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="step-2">
+            <b>Step 2: Enter Your Details</b>
+            <form class="form">
+                <div class="input-group mb-3">
+                    <span class="input-group-text userIcon" id="emailaddress"><i class="far fa-user"></i></span>
+                    <input type="text" class="form-control email" placeholder="First Name" ngModel name="first-name">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text userIcon" id="emailaddress"><i class="far fa-user"></i></span>
+                    <input type="text" class="form-control email" placeholder="Last Name" ngModel name="email">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text emailIcon" id="emailaddress"><i class="far fa-envelope"></i></span>
+                    <input type="email" class="form-control email" placeholder="Email Address" ngModel name="email">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text passIcon" id="password"><i class="fas fa-unlock-alt"></i></span>
+                    <input type="password" class="form-control password" placeholder="Password" ngModel name="password">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text passIcon" id="password"><i class="fas fa-unlock-alt"></i></span>
+                    <input type="password" class="form-control password" placeholder="Repeat Password" ngModel name="password">
+                </div>
+                <div class="confirmation">
+                    <label class="checkbox">
+                        <input id="notify_guest_verification" name="notify_guest_verification"
+                          ng-model="newOrganization.notify_guest_verification" type="checkbox"
+                          class="ng-pristine ng-untouched ng-valid">
+                          I confirm that I have read and agree to the Oddjobs.je<a href="">&nbsp; Terms and Conditions.</a>
+                    </label>
+    
+                    <label class="checkbox">
+                        <input id="notify_guest_verification" name="notify_guest_verification"
+                          ng-model="newOrganization.notify_guest_verification" type="checkbox"
+                          class="ng-pristine ng-untouched ng-valid">
+                          I confirm that I have read and agree to the Oddjobs.je<a href="">&nbsp; Privacy Policy.</a>
+                    </label>
+                </div>
+                
+                <div class="d-grid mx-auto">
+                    <button class="btn btn-lg btn-primary logIn" type="button">Sign Up</button>
+                </div>
+            </form>      
+        </div>
+    </div>    
+</div>

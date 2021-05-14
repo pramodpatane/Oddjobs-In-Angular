@@ -1,0 +1,15 @@
+@import url(../../../app.component.css);
+*{font-family: nunito-regular;}
+
+.container{padding: 160px 20px 100px 20px;}
+.top{text-align: center;}
+.form{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 54px;
+}
+.form i{font-family: 'Font Awesome 5 Pro';}
+/* .form .sighUp{text-decoration: none;} */
+.emailIcon{padding: 15px;}
+ .email{padding: 23px;}
+.resetPass{margin-top: 20px; width: 100%;}

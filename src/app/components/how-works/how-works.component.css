@@ -1,0 +1,19 @@
+@import url(../../app.component.css);
+*{font-family: nunito-regular;}
+
+.top-section{padding-top: 160px; padding-bottom: 73px; background-color: #F7F7F7;}
+.content-center{margin: auto; padding: 0 100px;}
+
+.row-1 p, .row-2 p, .row-3 p{color: #8B8B8B; line-height: 2;}
+.row-1{padding: 84px 20px 20px 20px; }
+.row-2{padding: 20px; background-color: #F5F8FD; }
+.row-3{padding: 30px 20px 20px 20px; }
+.section-2{ background: rgb(14,30,154); padding-top: 86px; padding-bottom: 115px; color: white; }
+
+.section-3{padding: 30px 0px; background-color: #F9F9F9;}
+.section-3 .card{
+    margin: 50px 0px; 
+    box-shadow: 0px 0px 15px 1px #cecbcb; 
+    border: none;
+    padding: 20px;
+}

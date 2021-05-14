@@ -1,0 +1,24 @@
+@font-face {
+    font-family: nunito-regular;
+    src: url(../assets/fonts/nunito-regular-webfont.woff),
+        url(../assets/fonts/nunito-regular-webfont.woff2);
+}
+*{font-family: nunito-regular; }
+i{font-family: 'Font Awesome 5 Pro';}
+.container { max-width: 1218px; }
+.btn{color: #ffffff; font-size: 16px; padding: 10px 35px;}
+.btn-primary{background: #2A41E8; font-size: 16px;}
+.card{
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+.card:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-10px); }
+  100% { transform: translateY(-10px); }
+}

@@ -1,0 +1,35 @@
+@keyframes justanimate{
+	from{ padding-left: 40px; }
+	to{ padding-right: 40px; }
+}
+.footer .container{max-width: 1214px;}
+.footer{
+    background-color: #09135D;
+    color: white; 
+    font-family: nunito-regular;
+}
+.footer a:hover{
+    border-bottom: 2px solid #2A41E8;
+	transition: all 0.3s linear;
+}
+.footer .container .top{padding: 72px 0px 40px 0px;}
+
+.footer .middle{ padding: 15px 0px 65px 0px; }  
+.footer .list{list-style-type: none; width: 100%;}
+.footer .list .list-item{padding: 5px 0px; }
+.footer .list li a{color: #C0C0C0; text-decoration: none;}
+.footer .list .btn{color: white;}
+.footer .emailInput{padding: 23px; background-color: transparent;}
+
+.bottom{ padding: 30px 0 25px 0px; font-size: 14px; color: #C0C0C0; background-color: #0E133B;}
+
+/* Responsive css */
+@media (max-width: 768px){
+    .emailInput{width: 90%; margin-bottom: 10px;}
+    .footer button{margin-left: 0;}
+    .footer .container-fluid .row img{width: 150px;}
+}
+
+@media (max-width: 1106px){
+    .footer button{margin-right: 20px;}
+}

@@ -1,0 +1,20 @@
+@import url('../../app.component.css');
+*{font-family: nunito-regular;}
+
+.main{padding: 160px 0 0px 0;}
+.main .top{padding-bottom: 18px;}
+
+.section-main{background-color: #F4F4F4;}
+.search-provider{padding: 75px 0 35px 0;}
+.row-search-provider{background-color: #fff; padding: 0 10px;}
+.keywords, .search-category{padding: 28px 10px 98px 10px;}
+.keywords h5, .search-category h5{padding-bottom: 18px;}
+
+.row-3{padding-top: 78px;}
+.row-3 .links{text-align: center; padding-top: 38px;}
+.btn-primary{width: 100%; padding: 6px 0px;}
+
+.cards-section .card{text-align: center; margin-bottom: 20px;}
+.cards-section .card img{border-radius: 50%; width: 60%; height: auto; display: block; margin: 20px auto;}
+.card .card-body .card-title{font-weight: 600;}
+.card .card-body .card-text{font-size: 14px; color: #2A4AE9;}

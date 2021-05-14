@@ -1,0 +1,75 @@
+/* main home css */
+@import url(../../app.component.css);
+*{font-family: nunito-regular;}
+
+.top-section{
+    padding: 197px 0px 0px 0px; 
+    background: url('../../../assets/images/oddjobs-home-placeholder2.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+.top-section .btn-light{border: 2px solid white; background-color: transparent;}
+.home-section .top-section h4{font-size: 26px; font-weight: 300; }
+.home-section .top-section h1{font-size: 58px; font-weight: 700; line-height: 1.1; padding: 12px 0 17px 0;}
+.home-section .top-section .btn{margin-top: 15px; font-size: 19px; font-weight: 500;}
+
+.section-2{background-color: #F9F9F9; padding: 72px 0 82px 0;}
+.section-2 #top-heading{
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 500;
+    color: #333;
+    
+}
+.section-2 .row{padding-top: 25px;}
+.section-2 .btn-section{background: #F9F9F9;}
+.section-2 .browse-jobs{text-decoration: none; font-size: 18px;}
+.section-2 .btn-section .btn{width: fit-content; margin: 20px 0 30px 30px;}
+.section-2 .card{box-shadow: 0px 0px 15px 1px #cecbcb;}
+.section-2 .card .card-title, .card-text{padding-left: 20px;}
+.section-2 .card-body{color: #777777; font-size: 18px;}
+.section-2 .card #profile{color: #2A41E8;}
+.section-2 #work{font-size: 22px;}
+.section-2 .card .card-text{padding-bottom: 20px;}
+.section-2 .goAll{display: block; margin: 0 auto; margin-top: 86px;}
+
+.categories{padding: 20px 0 50px 0; background-color: #F9F9F9;}
+.categories .card{background-repeat: no-repeat; background-size: cover; padding: 100px 0; margin-bottom: 30px;}
+.categories .card-1{background-image: url('../../../assets/images/BuildingandConstruction.png'); }
+.categories .card-2{background-image: url('../../../assets/images/Carpentry.png'); }
+.categories .card-3{background-image: url('../../../assets/images/Cleaning.png'); }
+.categories .card-4{background-image: url('../../../assets/images/Decking.png'); }
+.categories .card-5{background-image: url('../../../assets/images/DogWalking.png'); }
+.categories .card-6{background-image: url('../../../assets/images/ElectricianandElectrical.png'); }
+.categories .card-7{background-image: url('../../../assets/images/Fencing.png'); }
+.categories .card-8{background-image: url('../../../assets/images/Handyman.png'); }
+.categories .card:hover {background-color: #2A41E8; background-image: none;}
+.categories .card h5{color: white;}
+.categories .card .card-title{margin: auto;}
+
+.section-3, .section-5{
+    background: url('../../../assets/images/section-background-oddjobs.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 84px 0px 116px 0px;
+}
+.section-3 .left-section{color: #ffffff; padding-top: 15px;}
+.section-3 .left-section h1{line-height: 1.2; font-size: 48px; font-weight: 600;}
+.section-3 .left-section p , .section-5 p{
+    font-size: 18px; 
+    color: #ffffff; 
+    padding: 20px 0px;
+    line-height: 1.5;
+}
+.section-3 img{padding-right: 50px;}
+
+.section-4{padding: 72px 0 68px 0; text-align: center;}
+.section-4 h3{padding-bottom: 30px;}
+.section-4 p{color: #808684; padding: 20px; font-size: 18px;}
+.section-4 i{font-size: 55px; padding-bottom: 20px;}
+
+@media (max-width: 768px){
+    .card{margin: 15px}
+    .section-3 .element-img{padding: 15px 10px;}
+}
